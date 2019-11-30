@@ -1,0 +1,23 @@
+{
+  "name": "HuiJiaYou",
+  "version": "1.0.0",
+  "description": "* 三级列表\r * 首页轮播\r * 首页登录窗口\r * 搜索框\r * 登录展示用户信息\r * 展示购物车数量\r * 商品轮播\r * 右侧展示客服信息\r * 页尾链接",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}
