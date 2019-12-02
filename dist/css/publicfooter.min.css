@@ -60,3 +60,182 @@ input {
 .fr {
   float: right;
 }
+
+#PB_foot .warrant {
+  overflow: hidden;
+  margin: 20px auto 45px auto;
+  width: 1200px;
+}
+
+#PB_foot .warrant li {
+  height: 54px;
+  padding: 0 25px 0 82px;
+  float: left;
+  background: url("../img/home/img/warrant_icon.min.png") no-repeat 15px 0;
+}
+
+#PB_foot .warrant li b {
+  display: block;
+  line-height: 22px;
+  padding-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+#PB_foot .warrant li i {
+  display: block;
+  line-height: 18px;
+  font-size: 12px;
+  color: #999;
+}
+
+#PB_foot .warrant .l2 {
+  background-position: 15px -55px;
+  border-left: 1px solid #d6d6d6;
+}
+
+#PB_foot .warrant .l3 {
+  background-position: 15px -110px;
+  border-left: 1px solid #d6d6d6;
+}
+
+#PB_foot .warrant .l4 {
+  background-position: 15px -165px;
+  border-left: 1px solid #d6d6d6;
+}
+
+#PB_foot .warrant .l5 {
+  background-position: 15px -220px;
+  border-left: 1px solid #d6d6d6;
+}
+
+#PB_foot .cont {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+#PB_foot .cont .div_title {
+  width: 860px;
+  padding-left: 78px;
+  float: left;
+  overflow: hidden;
+}
+
+#PB_foot .cont .div_title a:hover {
+  color: #f40;
+}
+
+#PB_foot .cont .div_title dl {
+  width: 20%;
+  float: left;
+  overflow: hidden;
+}
+
+#PB_foot .cont .div_title dl dt {
+  color: #666;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+#PB_foot .cont .div_title dl dt a {
+  color: #666;
+}
+
+#PB_foot .cont .div_title dl dd {
+  font-size: 12px;
+  color: #999;
+  line-height: 20px;
+}
+
+#PB_foot .cont .div_title dl dd a {
+  color: #666;
+}
+
+#PB_foot .cont .div_title_r {
+  float: right;
+  overflow: hidden;
+  width: 210px;
+  padding-right: 50px;
+}
+
+#PB_foot .cont .div_title_r .hd {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+#PB_foot .cont .div_title_r .hd li {
+  width: 79px;
+  float: left;
+  line-height: 25px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  font-weight: bold;
+  margin-right: 26px;
+}
+
+#PB_foot .cont .div_title_r .hd li img {
+  width: 100%;
+}
+
+#PB_foot .cont .div_title_r p {
+  padding-left: 35px;
+  overflow: hidden;
+  background: url("../img/home/img/mobile.min.png") no-repeat;
+}
+
+#PB_foot .cont .div_title_r p b {
+  line-height: 26px;
+  display: block;
+  font-size: 20px;
+  color: #666;
+  font-weight: bold;
+}
+
+#PB_foot .cont .div_title_r p i {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  line-height: 14px;
+  margin-top: -3px;
+}
+
+#PB_foot .footer {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+#PB_foot .footer .cont {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#PB_foot .footer .cont p {
+  line-height: 26px;
+  color: #999;
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+#PB_foot .footer .cont p a {
+  color: #999;
+}
+
+#PB_foot .footer .cont p a:hover {
+  color: #fff;
+}
+
+#PB_foot .footer .cont p .gongan {
+  display: inline-block;
+  text-decoration: none;
+  height: 20px;
+  line-height: 20px;
+}
+
+#PB_foot .footer .cont p .gongan img {
+  display: inline;
+}

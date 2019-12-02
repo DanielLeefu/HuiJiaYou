@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/publicheader.min.css">
+  <link rel="stylesheet" href="./css/publicfooter.min.css">
+  <script src="./js/home/jquery-1.12.4.min.js"></script>
+  <style>
+  #home_body{
+    height: 560px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: green;
+
+  }
+  </style>
+</head>
+<body>
+  <div id="Phome_head">
+    <!-- 加载公共头部 -->
+  </div>
+
+  <div id="home_body">
+    
+  </div>
+
+
+
+  <div id="Phome_foot">
+    <!-- 加载公告尾部 -->
+  </div>
+
+
+  <script>
+    // <!-- 加载公共头部 -->
+    $('#Phome_head').load('publicheader.html #publicHeader',function(){
+      $('#nav1 .navmain').css('display','block')
+    })  
+
+    // <!-- 加载公告尾部 -->
+    $('#Phome_foot').load('publicfooter.html #PB_foot')
+  </script>
+</body>
+</html>

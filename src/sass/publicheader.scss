@@ -317,7 +317,9 @@
   height: 40px;
   position: relative;
   z-index: 10;
-
+#nav1:hover .navmain{
+  display: block;
+}
   #nav1{
     position: relative;
     overflow: visible;
@@ -332,8 +334,9 @@
     background: #333;
     color: #fff;
     padding: 0 20px;
+    
     .navmain{
-      display: block;
+      display: none;
       position: absolute;
       height: 560px;
       background: #ffffff;
