@@ -1,7 +1,7 @@
 @import './public/public';
 
 #Phome_search{
-  border-bottom:2px solid  #dc0f50
+  border-bottom:3px solid  #dc0f50
 }
 
 
@@ -10,7 +10,7 @@
   overflow: hidden;
   width: 1060px;
   margin: 0 auto;
-  background-color: pink;
+  // background-color: pink;
   .g_left{
     width: 448px;
     height: 336px;
@@ -42,8 +42,8 @@
       }
     }
     .bd{
-      // display: none;
-      margin-top: -1px;
+      display: none;
+      margin-top: -5px;
       overflow: hidden;
       height: 290px;
       border: 1px solid #e5e5e5;
@@ -137,7 +137,8 @@
       }
     }
     .quick{
-      display: none;
+      // display: none;
+      display: block;
       padding-top: 9px;
       height: 326px;
       .font{

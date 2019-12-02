@@ -56,7 +56,7 @@ gulp.task('particulars_img',()=>{
   .pipe(gulp.dest('./dist/img/particulars'))
 })
 
-// 压缩 login_img
+// 压缩 login_img\
 gulp.task('login_img',()=>{
   gulp.src('./src/img/login/*.*')
   .pipe(imagemin())

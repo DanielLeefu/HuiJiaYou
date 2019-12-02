@@ -62,7 +62,7 @@ input {
 }
 
 #Phome_search {
-  border-bottom: 2px solid  #dc0f50;
+  border-bottom: 3px solid  #dc0f50;
 }
 
 #login {
@@ -70,7 +70,6 @@ input {
   overflow: hidden;
   width: 1060px;
   margin: 0 auto;
-  background-color: pink;
 }
 
 #login .g_left {
@@ -110,7 +109,8 @@ input {
 }
 
 #login .loginer .bd {
-  margin-top: -1px;
+  display: none;
+  margin-top: -5px;
   overflow: hidden;
   height: 290px;
   border: 1px solid #e5e5e5;
@@ -214,7 +214,7 @@ input {
 }
 
 #login .loginer .quick {
-  display: none;
+  display: block;
   padding-top: 9px;
   height: 326px;
 }

@@ -1,0 +1,326 @@
+@charset "UTF-8";
+body {
+  font-family: '微软雅黑';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+body, ol, ul, li, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+  margin: 0;
+  padding: 0;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: normal;
+}
+
+i, em {
+  font-style: normal;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+input {
+  outline: none;
+  border: 0;
+}
+
+.clear_fix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clear_fix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.main {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+}
+
+.main .search_list {
+  overflow: hidden;
+  width: 1200px;
+  margin: 15px auto;
+}
+
+.main .search_list .fl {
+  width: 957px;
+  float: left;
+  overflow: hidden;
+}
+
+.main .search_list .fl h2 {
+  height: 32px;
+  line-height: 32px;
+}
+
+.main .search_list .fl h2 a {
+  font-size: 14px;
+  color: #333;
+}
+
+.main .search_list .fl .term {
+  margin-bottom: 19px;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+.main .search_list .fl .term .hd dl {
+  overflow: hidden;
+  line-height: 58px;
+  position: relative;
+}
+
+.main .search_list .fl .term .hd dl dt {
+  width: 80px;
+  background: #f1f1f1;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  padding-left: 10px;
+  float: left;
+  height: 100%;
+}
+
+.main .search_list .fl .term .hd dl dd {
+  width: 840px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  height: 58px;
+  padding-left: 10px;
+}
+
+.main .search_list .fl .term .hd dl dd a {
+  display: block;
+  height: 22px;
+  margin: 18px 35px 18px 0;
+  overflow: hidden;
+  float: left;
+  line-height: 22px;
+  font-size: 12px;
+  color: #666;
+  padding: 0 6px;
+}
+
+.main .search_list .fl .term .hd .top {
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+.main .search_list .fl .filter {
+  margin-bottom: 30px;
+  height: 45px;
+  border: 1px solid #e5e5e5;
+  background: #f1f1f1;
+}
+
+.main .search_list .fl .filter ul li {
+  width: 88px;
+  float: left;
+  height: 46px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 45px;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+}
+
+.main .search_list .fl .filter ul #on {
+  width: 222px;
+  padding-left: 21px;
+}
+
+.main .search_list .fl .filter ul #on input {
+  width: 32px;
+  padding: 0 10px;
+  float: left;
+  text-align: left;
+  margin-top: 11px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #d6d6d6;
+}
+
+.main .search_list .fl .filter ul #on span {
+  float: left;
+  margin: 0 10px;
+  color: #bdbdbd;
+}
+
+.main .search_list .fl .filter ul #on a {
+  display: block;
+  width: 50px;
+  height: 24px;
+  line-height: 24px;
+  background: #dc0f50;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  float: left;
+  margin: 11px 0 0 15px;
+}
+
+.main .search_list .fl .filter .curr {
+  color: #dc0f50;
+  border-left: 1px solid #e5e5e5;
+  background: #fff;
+  border-right: 1px solid #e5e5e5;
+}
+
+.main .search_list .fl .ac_list {
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 0;
+  margin-bottom: 30px;
+}
+
+.main .search_list .fl .ac_list li {
+  float: left;
+  padding: 0 10px;
+  width: 214px;
+}
+
+.main .search_list .fl .ac_list li a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.main .search_list .fl .ac_list li a img {
+  display: block;
+  width: 214px;
+  height: 214px;
+}
+
+.main .search_list .fl .ac_list li a b {
+  padding: 5px 0;
+  overflow: hidden;
+  height: 40px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333;
+  display: block;
+}
+
+.main .search_list .fl .ac_list li a p {
+  height: 24px;
+  line-height: 24px;
+  font-size: 20px;
+  color: #e11f24;
+}
+
+.main .search_list .fl .ac_list li a strong {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+.main .fr {
+  width: 233px;
+  overflow: hidden;
+  float: right;
+}
+
+.main .fr .hd {
+  margin-bottom: 5px;
+}
+
+.main .fr .hd h2 {
+  padding-left: 0;
+}
+
+.main .fr ul li {
+  height: 80px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  padding-left: 97px;
+}
+
+.main .fr ul li a {
+  display: block;
+  height: 80px;
+}
+
+.main .fr ul li a i {
+  background: url("../img/home/biao_bg(2).min.png") no-repeat;
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 18px;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  z-index: 1;
+}
+
+.main .fr ul li a .i2 {
+  background: url("../img/home/biao_bg(2).min.png") no-repeat 0 -26px;
+}
+
+.main .fr ul li a .i3 {
+  background: url("../img/home/biao_bg(2).min.png") no-repeat 0 -52px;
+}
+
+.main .fr ul li a img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.main .fr ul li a b {
+  display: block;
+  height: 32px;
+  line-height: 16px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 22px;
+}
+
+.main .fr ul li a em {
+  font-size: 20px;
+  color: #dc0f50;
+  line-height: 26px;
+}
