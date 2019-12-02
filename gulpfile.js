@@ -83,9 +83,9 @@ gulp.task('cart_img',()=>{
 //发布任务将添加监听
 gulp.task('default',()=>{
   // es5转es6
-  // gulp.watch('./src/js/es6/*.js',['babel']);
+  gulp.watch('./src/js/es6/*.js',['babel']);
   // es5压缩
-  // gulp.watch('./src/js/es5/*.js',['uglify'])
+  gulp.watch('./src/js/es5/*.js',['uglify'])
   //css压缩
   gulp.watch('./src/sass/*.scss',['sass'])
   

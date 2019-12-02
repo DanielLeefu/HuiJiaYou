@@ -5,18 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/public/swiper.min.css">
   <link rel="stylesheet" href="./css/publicheader.min.css">
   <link rel="stylesheet" href="./css/publicfooter.min.css">
-  <script src="./js/home/jquery-1.12.4.min.js"></script>
-  <style>
-  #home_body{
-    height: 560px;
-    width: 1200px;
-    margin: 0 auto;
-    background-color: green;
-
-  }
-  </style>
+  <link rel="stylesheet" href="./css/home.min.css">
+  <!-- <link rel="stylesheet" href="./css/public/sliderx.css"> -->
+ 
 </head>
 <body>
   <div id="Phome_head">
@@ -24,16 +18,842 @@
   </div>
 
   <div id="home_body">
-    
+    <div class="home_right clear_fix">
+      <!-- 轮播图 -->
+      <div class="home_lun fl">
+        <div class="focus">
+          <div class="swiper-container" id="swiper1">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img src="./img/home/img/lun_focu1.min.jpg" alt="img">
+                    </a>
+                  </div>
+                  <div class="swiper-slide"><img src="./img/home/img/lun_focus2.min.jpg" alt="img"></div>
+                 
+              </div>
+              <!-- 如果需要分页器 -->
+              <div class="swiper-pagination"></div>
+              
+              <!-- 如果需要导航按钮 -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <div class="ad1 fl">
+          <a href="#">
+            <img src="./img/home/img/lun_huaxia.min.jpg" alt="">
+          </a>
+        </div>
+        <div class="ad2 fr">
+          <a href="#">
+            <img src="./img/home/img/lun_start.min.jpg" alt="">
+          </a>
+        </div>
+         
+      </div>
+      <!-- 登录 -->
+      <div class="home_login fr">
+        <div class="home_login_c">
+          <div class="personal">
+            <!-- 未登录 -->
+            <div class="no">
+              <div class="hd">
+                <img src="./img/home/img/dome_07_1.min.png" alt="">
+                <i>hi！欢迎来到家有购物</i>
+              </div>
+              <a href="#" class="deng">登录</a>
+              <p>
+                <a href="#">免费注册</a>
+              </p>
+            </div>
+            <!-- 一登陆 -->
+            <div class="ye"></div>
+          </div>
+          <div class="c_list">
+            <div class="hd">4008-678-210</div>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="i1"></i>
+                  直播
+                  <br>
+                  节目表
+                </a>
+              </li>
+              <li>
+                  <a href="#">
+                    <i class="i2"></i>
+                    掌上
+                    <br>
+                    购物
+                  </a>
+                </li>
+                <li>
+                    <a href="#">
+                      <i class="i3"></i>
+                      物流
+                      <br>
+                      查询
+                    </a>
+                  </li>
+                  <li>
+                      <a href="#">
+                        <i class="i4"></i>
+                        会员
+                        <br>
+                        中心
+                      </a>
+                    </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+     
+  </div>
+ 
+  <div class="rujiao"><a href="#">
+    <img src="./img/home/img/01.min.jpg" alt="">
+  </a></div>
+
+  <!-- rujiao -->
+  <div class="live_list">
+    <div class="hd">
+      <h2></h2>
+    </div>
+    <div class="bd">
+      <!-- 结束的时候 -->
+      <!-- <div class="end">
+        本次抢购
+        <br>
+        已结束
+      </div> -->
+      <div class="list">
+          <!-- <div class="control-box"> -->
+              <div class="one-box">
+
+              <ul>
+                <li class="prev">
+                  <img src="./img/home/img/jz_icon.min.png" alt="prev">
+                </li>
+                <li class="next">
+                  <img src="./img/home/img/jz_icon.min.png" alt="next">
+                </li>
+              </ul>
+              <!-- <div class="bigbox"> -->
+
+              <div class="bigbox1">
+                <div id="switcher">
+                  <div class="content_1">
+                    <div class="box1">
+                        <!-- <div class="box"> -->
+
+                     <a href="#">
+                       <img src="./img/home/img/0101.min.jpg" alt="">
+                       <b>一梦颗粒按摩乳胶枕芯一只装</b>
+                       <em>￥79.9</em>
+                     </a>
+                    </div>
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0202.min.jpg" alt="">
+                          <b>泰嗨 乳胶U型枕旅行枕 乳胶枕 U型枕(颜色可选)</b>
+                          <em>￥185</em>
+                        </a>
+                       </div>
+              <div class="box1">
+                <a href="#">
+                  <img src="./img/home/img/0303.min.jpg" alt="">
+                  <b>欣翔贝满国产平板小孔乳胶床垫150*200*7.5...</b>
+                  <em>￥1535</em>
+                </a>
+                </div>  
+                 
+                <div class="box1">
+                    <a href="#">
+                      <img src="./img/home/img/0404.min.jpg" alt="">
+                      <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                      <em>￥1459</em>
+                    </a>
+                    </div>  
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0404.min.jpg" alt="">
+                          <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                          <em>￥1459</em>
+                        </a>
+                        </div>  
+
+                        <div class="box1">
+                            <a href="#">
+                              <img src="./img/home/img/0404.min.jpg" alt="">
+                              <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                              <em>￥1459</em>
+                            </a>
+                            </div>  
+                  </div>  
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 实用锅具 -->
+  
+  <div class="rujiao"><a href="#">
+      <img src="./img/home/img/02.min.jpg" alt="">
+    </a></div>
+    <!-- rujiao -->
+    <div class="live_list">
+      <div class="hd">
+        <h2></h2>
+      </div>
+      <div class="bd">
+        <!-- 结束的时候 -->
+        <!-- <div class="end">
+          本次抢购
+          <br>
+          已结束
+        </div> -->
+        <div class="list">
+            <!-- <div class="control-box"> -->
+                <div class="one-box">
+  
+                <ul>
+                  <li class="prev">
+                    <img src="./img/home/img/jz_icon.min.png" alt="prev">
+                  </li>
+                  <li class="next">
+                    <img src="./img/home/img/jz_icon.min.png" alt="next">
+                  </li>
+                </ul>
+                <!-- <div class="bigbox"> -->
+  
+                <div class="bigbox1">
+                  <div id="switcher">
+                    <div class="content_1">
+                      <div class="box1">
+                          <!-- <div class="box"> -->
+  
+                       <a href="#">
+                         <img src="./img/home/img/0101.min.jpg" alt="">
+                         <b>一梦颗粒按摩乳胶枕芯一只装</b>
+                         <em>￥79.9</em>
+                       </a>
+                      </div>
+                      <div class="box1">
+                          <a href="#">
+                            <img src="./img/home/img/0202.min.jpg" alt="">
+                            <b>泰嗨 乳胶U型枕旅行枕 乳胶枕 U型枕(颜色可选)</b>
+                            <em>￥185</em>
+                          </a>
+                         </div>
+                <div class="box1">
+                  <a href="#">
+                    <img src="./img/home/img/0303.min.jpg" alt="">
+                    <b>欣翔贝满国产平板小孔乳胶床垫150*200*7.5...</b>
+                    <em>￥1535</em>
+                  </a>
+                  </div>  
+                   
+                  <div class="box1">
+                      <a href="#">
+                        <img src="./img/home/img/0404.min.jpg" alt="">
+                        <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                        <em>￥1459</em>
+                      </a>
+                      </div>  
+                      <div class="box1">
+                          <a href="#">
+                            <img src="./img/home/img/0404.min.jpg" alt="">
+                            <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                            <em>￥1459</em>
+                          </a>
+                          </div>  
+  
+                          <div class="box1">
+                              <a href="#">
+                                <img src="./img/home/img/0404.min.jpg" alt="">
+                                <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                                <em>￥1459</em>
+                              </a>
+                              </div>  
+                    </div>  
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+  
+    </div>
+
+<!-- 健康美食轮播 -->
+<div class="rujiao"><a href="#">
+    <img src="./img/home/img/03.min.jpg" alt="">
+  </a></div>
+  <!-- rujiao -->
+  <div class="live_list">
+    <div class="hd">
+      <h2></h2>
+    </div>
+    <div class="bd">
+      <!-- 结束的时候 -->
+      <!-- <div class="end">
+        本次抢购
+        <br>
+        已结束
+      </div> -->
+      <div id="live_lunbo">
+          <div class="swiper-container" id="swiper2">
+             <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                   <div class="boxz">
+                       <a href="#">
+                         <img src="./img/home/img/0404.min.jpg" alt="">
+                         <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                         <em>￥1459</em>
+                       </a>
+                       </div>  
+               </div>
+               <div class="swiper-slide"> <div class="boxz">
+                   <a href="#">
+                     <img src="./img/home/img/0404.min.jpg" alt="">
+                     <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                     <em>￥1459</em>
+                   </a>
+                   </div>  </div>
+               <div class="swiper-slide"> <div class="boxz">
+                   <a href="#">
+                     <img src="./img/home/img/0404.min.jpg" alt="">
+                     <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                     <em>￥1459</em>
+                   </a>
+                   </div>  </div>
+               <div class="swiper-slide"> <div class="boxz">
+                   <a href="#">
+                     <img src="./img/home/img/0404.min.jpg" alt="">
+                     <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                     <em>￥1459</em>
+                   </a>
+                   </div>  </div>
+               <div class="swiper-slide"> <div class="boxz">
+                   <a href="#">
+                     <img src="./img/home/img/0404.min.jpg" alt="">
+                     <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                     <em>￥1459</em>
+                   </a>
+                   </div>  </div>
+               <div class="swiper-slide"> <div class="boxz">
+                   <a href="#">
+                     <img src="./img/home/img/0404.min.jpg" alt="">
+                     <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                     <em>￥1459</em>
+                   </a>
+                   </div>  </div>
+               
+             </div>
+             <!-- Add Pagination -->
+             <div class="swiper-pagination">
+               
+             </div>
+           </div>
+     
+     
+     
+     
+     
+     </div>
+     
+    </div>
+
   </div>
 
 
+<!-- 美酒 -->
+<div class="rujiao"><a href="#">
+    <img src="./img/home/img/04.min.jpg" alt="">
+  </a></div>
+  <!-- rujiao -->
+  <div class="live_list">
+    <div class="hd">
+      <h2></h2>
+    </div>
+    <div class="bd">
+      <!-- 结束的时候 -->
+      <!-- <div class="end">
+        本次抢购
+        <br>
+        已结束
+      </div> -->
+      <div class="list">
+          <!-- <div class="control-box"> -->
+              <div class="one-box">
+
+              <ul>
+                <li class="prev">
+                  <img src="./img/home/img/jz_icon.min.png" alt="prev">
+                </li>
+                <li class="next">
+                  <img src="./img/home/img/jz_icon.min.png" alt="next">
+                </li>
+              </ul>
+              <!-- <div class="bigbox"> -->
+
+              <div class="bigbox1">
+                <div id="switcher">
+                  <div class="content_1">
+                    <div class="box1">
+                        <!-- <div class="box"> -->
+
+                     <a href="#">
+                       <img src="./img/home/img/0101.min.jpg" alt="">
+                       <b>一梦颗粒按摩乳胶枕芯一只装</b>
+                       <em>￥79.9</em>
+                     </a>
+                    </div>
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0202.min.jpg" alt="">
+                          <b>泰嗨 乳胶U型枕旅行枕 乳胶枕 U型枕(颜色可选)</b>
+                          <em>￥185</em>
+                        </a>
+                       </div>
+              <div class="box1">
+                <a href="#">
+                  <img src="./img/home/img/0303.min.jpg" alt="">
+                  <b>欣翔贝满国产平板小孔乳胶床垫150*200*7.5...</b>
+                  <em>￥1535</em>
+                </a>
+                </div>  
+                 
+                <div class="box1">
+                    <a href="#">
+                      <img src="./img/home/img/0404.min.jpg" alt="">
+                      <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                      <em>￥1459</em>
+                    </a>
+                    </div>  
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0404.min.jpg" alt="">
+                          <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                          <em>￥1459</em>
+                        </a>
+                        </div>  
+
+                        <div class="box1">
+                            <a href="#">
+                              <img src="./img/home/img/0404.min.jpg" alt="">
+                              <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                              <em>￥1459</em>
+                            </a>
+                            </div>  
+                  </div>  
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+  </div>
+<!-- 美容护肤 -->
+<div class="rujiao"><a href="#">
+    <img src="./img/home/img/05.min.jpg" alt="">
+  </a></div>
+  <!-- rujiao -->
+  <div class="live_list">
+    <div class="hd">
+      <h2></h2>
+    </div>
+    <div class="bd">
+      <!-- 结束的时候 -->
+      <!-- <div class="end">
+        本次抢购
+        <br>
+        已结束
+      </div> -->
+      <div class="list">
+          <!-- <div class="control-box"> -->
+              <div class="one-box">
+
+              <ul>
+                <li class="prev">
+                  <img src="./img/home/img/jz_icon.min.png" alt="prev">
+                </li>
+                <li class="next">
+                  <img src="./img/home/img/jz_icon.min.png" alt="next">
+                </li>
+              </ul>
+              <!-- <div class="bigbox"> -->
+
+              <div class="bigbox1">
+                <div id="switcher">
+                  <div class="content_1">
+                    <div class="box1">
+                        <!-- <div class="box"> -->
+
+                     <a href="#">
+                       <img src="./img/home/img/0101.min.jpg" alt="">
+                       <b>一梦颗粒按摩乳胶枕芯一只装</b>
+                       <em>￥79.9</em>
+                     </a>
+                    </div>
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0202.min.jpg" alt="">
+                          <b>泰嗨 乳胶U型枕旅行枕 乳胶枕 U型枕(颜色可选)</b>
+                          <em>￥185</em>
+                        </a>
+                       </div>
+              <div class="box1">
+                <a href="#">
+                  <img src="./img/home/img/0303.min.jpg" alt="">
+                  <b>欣翔贝满国产平板小孔乳胶床垫150*200*7.5...</b>
+                  <em>￥1535</em>
+                </a>
+                </div>  
+                 
+                <div class="box1">
+                    <a href="#">
+                      <img src="./img/home/img/0404.min.jpg" alt="">
+                      <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                      <em>￥1459</em>
+                    </a>
+                    </div>  
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0404.min.jpg" alt="">
+                          <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                          <em>￥1459</em>
+                        </a>
+                        </div>  
+
+                        <div class="box1">
+                            <a href="#">
+                              <img src="./img/home/img/0404.min.jpg" alt="">
+                              <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                              <em>￥1459</em>
+                            </a>
+                            </div>  
+                  </div>  
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- 海外好货-->
+  <div class="rujiao"><a href="#">
+      <img src="./img/home/img/06.min.jpg" alt="">
+    </a></div>
+    <!-- rujiao -->
+    <div class="live_list">
+      <div class="hd">
+        <h2></h2>
+      </div>
+      <div class="bd">
+        <!-- 结束的时候 -->
+        <!-- <div class="end">
+          本次抢购
+          <br>
+          已结束
+        </div> -->
+        <div class="list">
+            <!-- <div class="control-box"> -->
+                <div class="one-box">
+  
+                <ul>
+                  <li class="prev">
+                    <img src="./img/home/img/jz_icon.min.png" alt="prev">
+                  </li>
+                  <li class="next">
+                    <img src="./img/home/img/jz_icon.min.png" alt="next">
+                  </li>
+                </ul>
+                <!-- <div class="bigbox"> -->
+  
+                <div class="bigbox1">
+                  <div id="switcher">
+                    <div class="content_1">
+                      <div class="box1">
+                          <!-- <div class="box"> -->
+ 
+                       <a href="#">
+                          <img class="haiwia" src="./img/home/img/icon_msg_haiwaigou.min.png"alt="">
+                         <img src="./img/home/img/0101.min.jpg" alt="">
+                         <b>一梦颗粒按摩乳胶枕芯一只装</b>
+                         <em>￥79.9</em>
+                       </a>
+                      </div>
+                      <div class="box1">
+                        
+                          <a href="#">
+                              <img class="haiwia" src="./img/home/img/icon_msg_haiwaigou.min.png" alt="" >
+                            <img src="./img/home/img/0202.min.jpg" alt="">
+                            <b>泰嗨 乳胶U型枕旅行枕 乳胶枕 U型枕(颜色可选)</b>
+                            <em>￥185</em>
+                          </a>
+                         </div>
+                <div class="box1">
+                  <a href="#">
+                      <img class="haiwia" src="./img/home/img/icon_msg_haiwaigou.min.png" alt="" >
+                    <img src="./img/home/img/0303.min.jpg" alt="">
+                    <b>欣翔贝满国产平板小孔乳胶床垫150*200*7.5...</b>
+                    <em>￥1535</em>
+                  </a>
+                  </div>  
+                   
+                  <div class="box1">
+                      <a href="#">
+                          <img class="haiwia" src="./img/home/img/icon_msg_haiwaigou.min.png" alt="" >
+                        <img src="./img/home/img/0404.min.jpg" alt="">
+                        <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                        <em>￥1459</em>
+                      </a>
+                      </div>  
+                      <div class="box1">
+                          <a href="#">
+                              <img class="haiwia" src="./img/home/img/icon_msg_haiwaigou.min.png" alt="" >
+                            <img src="./img/home/img/0404.min.jpg" alt="">
+                            <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                            <em>￥1459</em>
+                          </a>
+                          </div>  
+  
+                          <div class="box1">
+                              <a href="#">
+                                <img src="./img/home/img/0404.min.jpg" alt="">
+                                <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                                <em>￥1459</em>
+                              </a>
+                              </div>  
+                    </div>  
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+  
+    </div>
+
+
+<!--  qingshezubao -->
+<div class="rujiao"><a href="#">
+    <img src="./img/home/img/07.min.jpg" alt="">
+  </a></div>
+  <!-- rujiao -->
+  <div class="live_list">
+    <div class="hd">
+      <h2></h2>
+    </div>
+    <div class="bd">
+      <!-- 结束的时候 -->
+      <!-- <div class="end">
+        本次抢购
+        <br>
+        已结束
+      </div> -->
+      <div class="list">
+          <!-- <div class="control-box"> -->
+              <div class="one-box">
+
+              <ul>
+                <li class="prev">
+                  <img src="./img/home/img/jz_icon.min.png" alt="prev">
+                </li>
+                <li class="next">
+                  <img src="./img/home/img/jz_icon.min.png" alt="next">
+                </li>
+              </ul>
+              <!-- <div class="bigbox"> -->
+
+              <div class="bigbox1">
+                <div id="switcher">
+                  <div class="content_1">
+                    <div class="box1">
+                        <!-- <div class="box"> -->
+
+                     <a href="#">
+                       <img src="./img/home/img/0101.min.jpg" alt="">
+                       <b>一梦颗粒按摩乳胶枕芯一只装</b>
+                       <em>￥79.9</em>
+                     </a>
+                    </div>
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0202.min.jpg" alt="">
+                          <b>泰嗨 乳胶U型枕旅行枕 乳胶枕 U型枕(颜色可选)</b>
+                          <em>￥185</em>
+                        </a>
+                       </div>
+              <div class="box1">
+                <a href="#">
+                  <img src="./img/home/img/0303.min.jpg" alt="">
+                  <b>欣翔贝满国产平板小孔乳胶床垫150*200*7.5...</b>
+                  <em>￥1535</em>
+                </a>
+                </div>  
+                 
+                <div class="box1">
+                    <a href="#">
+                      <img src="./img/home/img/0404.min.jpg" alt="">
+                      <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                      <em>￥1459</em>
+                    </a>
+                    </div>  
+                    <div class="box1">
+                        <a href="#">
+                          <img src="./img/home/img/0404.min.jpg" alt="">
+                          <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                          <em>￥1459</em>
+                        </a>
+                        </div>  
+
+                        <div class="box1">
+                            <a href="#">
+                              <img src="./img/home/img/0404.min.jpg" alt="">
+                              <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                              <em>￥1459</em>
+                            </a>
+                            </div>  
+                  </div>  
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--女装-->
+  <div class="rujiao"><a href="#">
+      <img src="./img/home/img/08.min.jpg" alt="">
+    </a></div>
+    <!-- rujiao -->
+    <div class="live_list">
+      <div class="hd">
+        <h2></h2>
+      </div>
+      <div class="bd">
+        <!-- 结束的时候 -->
+        <!-- <div class="end">
+          本次抢购
+          <br>
+          已结束
+        </div> -->
+        <div class="list">
+            <!-- <div class="control-box"> -->
+                <div class="one-box">
+  
+                <ul>
+                  <li class="prev">
+                    <img src="./img/home/img/jz_icon.min.png" alt="prev">
+                  </li>
+                  <li class="next">
+                    <img src="./img/home/img/jz_icon.min.png" alt="next">
+                  </li>
+                </ul>
+                <!-- <div class="bigbox"> -->
+  
+                <div class="bigbox1">
+                  <div id="switcher">
+                    <div class="content_1">
+                      <div class="box1">
+                          <!-- <div class="box"> -->
+  
+                       <a href="#">
+                         <img src="./img/home/img/0101.min.jpg" alt="">
+                         <b>一梦颗粒按摩乳胶枕芯一只装</b>
+                         <em>￥79.9</em>
+                       </a>
+                      </div>
+                      <div class="box1">
+                          <a href="#">
+                            <img src="./img/home/img/0202.min.jpg" alt="">
+                            <b>泰嗨 乳胶U型枕旅行枕 乳胶枕 U型枕(颜色可选)</b>
+                            <em>￥185</em>
+                          </a>
+                         </div>
+                <div class="box1">
+                  <a href="#">
+                    <img src="./img/home/img/0303.min.jpg" alt="">
+                    <b>欣翔贝满国产平板小孔乳胶床垫150*200*7.5...</b>
+                    <em>￥1535</em>
+                  </a>
+                  </div>  
+                   
+                  <div class="box1">
+                      <a href="#">
+                        <img src="./img/home/img/0404.min.jpg" alt="">
+                        <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                        <em>￥1459</em>
+                      </a>
+                      </div>  
+                      <div class="box1">
+                          <a href="#">
+                            <img src="./img/home/img/0404.min.jpg" alt="">
+                            <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                            <em>￥1459</em>
+                          </a>
+                          </div>  
+  
+                          <div class="box1">
+                              <a href="#">
+                                <img src="./img/home/img/0404.min.jpg" alt="">
+                                <b>Royal Latex泰国皇家乳胶双人床垫180*...</b>
+                                <em>￥1459</em>
+                              </a>
+                              </div>  
+                    </div>  
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+  
+    </div>
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
 
   <div id="Phome_foot">
     <!-- 加载公告尾部 -->
   </div>
 
 
+
+
+  <script src="./js/home/jquery-1.12.4.min.js"></script>
+  <script src="./js/home/swiper.jquery.min.js"></script>
   <script>
     // <!-- 加载公共头部 -->
     $('#Phome_head').load('publicheader.html #publicHeader',function(){
@@ -43,5 +863,7 @@
     // <!-- 加载公告尾部 -->
     $('#Phome_foot').load('publicfooter.html #PB_foot')
   </script>
+  <script src="./js/home.min.js"></script>
+  <!-- <script src="./js/sliderx.min.js"></script> -->
 </body>
 </html>

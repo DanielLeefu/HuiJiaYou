@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./js/home/jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet" href="./css/publicfooter.min.css">
+  <link rel="stylesheet" href="./css/publicheader.min.css">
+ <link rel="stylesheet" href="./css/login.min.css">
+</head>
+<body>
+  <div id="Phome_head">
+        <!-- 加载公共头部 -->
+  </div>
+        <!-- 加载公共头部 -->
+  <div id="Phome_search"></div>
+
+
+
+
+  <div id="login" class="clear_box">
+
+    <div class="fl g_left">
+       <a href="#">
+        <img src="./img/home/img/login001.min.jpg" alt="">
+      </a>
+    </div>
+
+
+    <div class="fr loginer">
+      <div class="hd">
+        <a href="#" class="yonghu">
+          <i>用户登录</i>
+        </a>
+        <a href="#" class="kuaijie">
+          <i>快捷登录</i>
+        </a>
+      </div>
+
+      <div class="bd">
+        <span id="message">请输入11位有效手机号</span>
+        <ul>
+          <li>
+            <i class="i1"></i>
+            <input type="text" placeholder="请输入11位有效手机号">
+            <em></em>
+          </li>
+          <li>
+              <i class="i2"></i>
+              <input type="text" placeholder="请输入密码">
+              <em></em>
+          </li>
+          <li class="curr clear_box">
+            <span>
+              <a href="#">新用户注册</a>
+            </span>
+            <label name="next">
+              <input type="checkbox" name="next">
+              下次自动登录
+            </label>
+            <a href="#">忘记密码</a>
+          </li>
+        </ul>
+        <p>
+          <a href="javascript:;">登录</a>
+        </p>
+      </div>
+
+      <div class="bd quick">
+        <span id="message">请输入11位有效手机号</span>
+        <i class="font">电视激活用户由此登录</i>
+        <strong>请确保你的手机畅通，用于接收验证码短信</strong>
+        <ul>
+          <li>
+            <i class="i1"></i>
+            <input type="text">
+            <button>获取验证码</button>
+          </li>
+          <li>
+            <i class="i2"></i>
+            <input type="text">
+            <button id="btn1">1234</button>
+          </li>
+          <li>
+            <i class="i2"></i>
+            <input type="text" placeholder="请输入验证码">
+            <em></em>
+          </li>
+          <li class="curr">
+            <span>
+              <a href="#">新用户注册</a>
+            </span>
+            <label name="zidong">
+              <input type="checkbox" name="zidong">
+              下次自动登录
+            </label>
+            <a href="#">重置密码</a>
+          </li>
+        </ul>
+        <p>
+          <a href="#">登录</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div id="Phome_foot">
+      <!-- 加载公告尾部 -->
+  </div>
+
+
+  <script>
+  
+      // <!-- 加载公共头部 -->
+      $('#Phome_head').load('publicheader.html #PH_top')  
+     
+      $('#Phome_search').load('publicheader.html #PH_search_col',function(){
+      $('#PH_search_col').css('margin-top','30px')
+    })
+
+
+  
+      // <!-- 加载公告尾部 -->
+      $('#Phome_foot').load('publicfooter.html #PB_foot')
+    </script>
+
+</body>
+</html>

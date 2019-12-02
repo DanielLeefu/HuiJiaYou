@@ -1,0 +1,311 @@
+@charset "UTF-8";
+body {
+  font-family: '微软雅黑';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+body, ol, ul, li, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+  margin: 0;
+  padding: 0;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: normal;
+}
+
+i, em {
+  font-style: normal;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+input {
+  outline: none;
+  border: 0;
+}
+
+.clear_fix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clear_fix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+#Phome_search {
+  border-bottom: 2px solid  #dc0f50;
+}
+
+#login {
+  padding: 60px 70px 30px 70px;
+  overflow: hidden;
+  width: 1060px;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+#login .g_left {
+  width: 448px;
+  height: 336px;
+  padding: 40px 0 0 0;
+  overflow: hidden;
+  margin-bottom: 75px;
+}
+
+#login .loginer {
+  width: 448px;
+  overflow: hidden;
+  height: 376px;
+  margin-bottom: 75px;
+}
+
+#login .loginer .hd {
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+#login .loginer .hd a {
+  display: block;
+  width: 50%;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+
+#login .loginer .hd a i {
+  color: #dc0f50;
+  border-bottom: 2px solid #dc0f50;
+}
+
+#login .loginer .bd {
+  margin-top: -1px;
+  overflow: hidden;
+  height: 290px;
+  border: 1px solid #e5e5e5;
+  padding: 45px 0 0 70px;
+}
+
+#login .loginer .bd #message {
+  display: block;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 32px;
+  background: url("../img/register/error_bg.min.png") no-repeat 9px 50%;
+  color: #e92d2f;
+  font-size: 12px;
+}
+
+#login .loginer .bd ul li {
+  overflow: hidden;
+  height: 40px;
+  margin-bottom: 19px;
+  position: relative;
+}
+
+#login .loginer .bd ul li .i1 {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(../img/icon01.png) no-repeat;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+}
+
+#login .loginer .bd ul li input {
+  margin-right: 16px;
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  padding: 5px 0 5px 60px;
+  width: 243px;
+  border: 1px solid #d6d6d6;
+  font-size: 14px;
+  color: #666;
+}
+
+#login .loginer .bd ul li em {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background: url("../img/register/correct_bg.min.png") no-repeat;
+  margin-top: 10px;
+}
+
+#login .loginer .bd ul .curr {
+  overflow: hidden;
+  height: 40px;
+  margin-bottom: 19px;
+  font-size: 14px;
+  color: 666;
+  margin-top: -14px;
+  position: relative;
+}
+
+#login .loginer .bd ul .curr span {
+  float: right;
+  padding-right: 70px;
+}
+
+#login .loginer .bd ul .curr span a {
+  color: #666;
+  font-size: 14px;
+}
+
+#login .loginer .bd ul .curr label {
+  color: #666;
+  font-size: 14px;
+}
+
+#login .loginer .bd ul .curr label input {
+  width: 13px;
+  height: 13px;
+  border: none;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 0;
+}
+
+#login .loginer .bd p {
+  height: 40px;
+  line-height: 40px;
+  padding-right: 70px;
+}
+
+#login .loginer .bd p a {
+  display: block;
+  background: #dc0f50;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+#login .loginer .quick {
+  display: none;
+  padding-top: 9px;
+  height: 326px;
+}
+
+#login .loginer .quick .font {
+  background: url(../img/ling.png) no-repeat 9px 50%;
+  color: #dc0f50;
+}
+
+#login .loginer .quick strong {
+  line-height: 21px;
+  font-size: 12px;
+  color: #999;
+  height: 21px;
+  display: block;
+  font-weight: normal;
+}
+
+#login .loginer .quick ul li {
+  overflow: hidden;
+  height: 40px;
+  margin-bottom: 19px;
+  position: relative;
+}
+
+#login .loginer .quick ul li i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url(../img/icon01.png) no-repeat;
+  position: absolute;
+  left: 11px;
+  top: 11px;
+}
+
+#login .loginer .quick ul li .i2 {
+  width: 14px;
+  background: url(../img/icon02.png) no-repeat;
+  left: 13px;
+}
+
+#login .loginer .quick ul li #btn1 {
+  outline: none;
+  width: 88px;
+  height: 38px;
+  border: 1px solid #d6d6d6;
+  background-color: pink;
+}
+
+#login .loginer .quick ul li input {
+  margin-right: 16px;
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  padding: 5px 0 5px 60px;
+  width: 243px;
+  border: 1px solid #d6d6d6;
+  font-size: 14px;
+  color: #666;
+  padding-left: 40px;
+  width: 263px;
+}
+
+#login .loginer .quick ul li button {
+  width: 90px;
+  height: 40px;
+  background: #dc0f50;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  right: 70px;
+  top: 0;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+#login .loginer .quick ul .curr {
+  height: 17px;
+}
+
+#login .loginer .quick p {
+  height: 40px;
+  line-height: 40px;
+  padding-right: 70px;
+}
+
+#login .loginer .quick p a {
+  display: block;
+  background: #dc0f50;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}

@@ -1,0 +1,228 @@
+@charset "UTF-8";
+body {
+  font-family: '微软雅黑';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+body, ol, ul, li, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+  margin: 0;
+  padding: 0;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: normal;
+}
+
+i, em {
+  font-style: normal;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+input {
+  outline: none;
+  border: 0;
+}
+
+.clear_fix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clear_fix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+#Phome_search {
+  border-bottom: 2px solid  #dc0f50;
+}
+
+#register {
+  width: 1040px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: #fff;
+  padding: 80px;
+  height: 562px;
+}
+
+#register .r_left {
+  width: 590px;
+  float: left;
+  overflow: hidden;
+}
+
+#register .r_left ul li {
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+#register .r_left ul li i {
+  display: block;
+  width: 80px;
+  font-size: 14px;
+  color: #666;
+  float: left;
+  text-align: right;
+  margin-right: 12px;
+}
+
+#register .r_left ul li i em {
+  font-family: 宋体;
+  color: #dc0f50;
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+#register .r_left ul li input {
+  width: 263px;
+  padding: 9px 20px;
+  height: 20px;
+  border: 1px solid #d6d6d6;
+  color: #666;
+  float: left;
+  margin-right: 15px;
+}
+
+#register .r_left ul li .btnma {
+  width: 138px;
+}
+
+#register .r_left ul li .pic {
+  width: 138px;
+}
+
+#register .r_left ul li #pic_yanz {
+  width: 60px;
+  height: 36px;
+  border: 1px solid #e5e5e5;
+  background-color: #e5e5e5;
+  outline: none;
+}
+
+#register .r_left ul li .btn {
+  width: 110px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  line-height: 40px;
+  background: #dc0f50;
+  color: #fff;
+  font-size: 14px;
+  float: left;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#register .r_left ul li .yes {
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  background: url("../img/register/correct_bg.min.png") no-repeat;
+  margin-top: 10px;
+}
+
+#register .r_left ul li .no {
+  background: url("../img/register/error_bg.min.png") no-repeat 0 center;
+  font-size: 14px;
+  color: #e92d2f;
+  width: auto;
+  padding-left: 22px;
+  margin: 0;
+  line-height: 38px;
+  height: 40px;
+}
+
+#register .r_left .xieyi {
+  overflow: hidden;
+  margin-top: -15px;
+  text-align: right;
+  padding-right: 193px;
+  height: 48px;
+  line-height: 48px;
+  color: #666;
+  font-size: 14px;
+}
+
+#register .r_left .xieyi input {
+  margin: 0 5px 0 0;
+  position: relative;
+  top: 2px;
+}
+
+#register .r_left .xieyi a {
+  display: inline;
+  background: none;
+  color: #666;
+  font-size: 14px;
+}
+
+#register .r_left .on {
+  overflow: hidden;
+  margin-top: -15px;
+  text-align: right;
+  padding-right: 193px;
+  height: 48px;
+  line-height: 48px;
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+#register .r_left .on a {
+  display: block;
+  background: #dc0f50;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background: #dc0f50;
+  width: 305px;
+  float: right;
+  height: 40px;
+  line-height: 40px;
+}
+
+#register .r_left .nowlogin {
+  display: block;
+  line-height: 20px;
+  text-align: right;
+  padding-right: 193px;
+}
+
+#register .r_left .nowlogin a {
+  color: #666;
+  font-size: 16px;
+  text-decoration: underline;
+}

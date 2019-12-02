@@ -1,4 +1,4 @@
-@import './public/public'
+@import './public/public';
 
 #home_body{
   overflow: hidden;
@@ -6,3 +6,344 @@
   width: 1200px;
   position: relative;
 }
+
+#home_body{
+  height: 560px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  // background-color: green;
+  .home_right{
+    overflow: hidden;
+    padding: 0 0 0 243px;
+    width: 957px;
+    height: 561px;
+  
+    // background-color: pink;
+    // 轮播
+    .home_lun{
+      width: 714px;
+      height: 560px;
+      overflow: hidden;
+      // background-color: green;
+      .focus{
+        margin-bottom: 4px;
+        width: 714px;
+        height: 382px;
+        overflow: hidden;
+        position: relative;
+        .swiper-container {
+          width: 714px;
+          height: 382px;
+        .swiper-button-next{background-image:url("../img/home/img/next_bg.min.png");}
+        .swiper-button-prev{background-image:url("../img/home/img/prev_bg.min.png");}
+         }  
+        .ad1{
+          width: 355px;
+          height: 175px;
+          overflow: hidden;
+        }
+        .ad2{
+          width: 355px;
+          height: 175px;
+          overflow: hidden;
+        }
+      }
+      
+    }
+    // login
+    .home_login{
+      width: 232px;
+      padding-top: 10px;
+      overflow: hidden;
+      .home_login_c{
+        border: 1px solid #e5e5e5;
+        margin-bottom: 14px;
+        // persona
+        .personal{
+          margin: 0 0;
+          margin-bottom: 10px;
+          width: 232px;
+          height: 172px;
+          overflow: hidden;
+          padding-bottom: 0;
+          border-bottom: none;
+          border-top: none;
+          // 没有登录
+          .no{
+            border: none;
+            .hd{
+              padding-top: 20px;
+              height: 78px;
+              text-align: center;
+              img{
+                border-radius:20px ;
+                margin: 0 auto;
+              }
+              i{
+                padding-top: 20px;
+                height: 78px;
+                text-align: center;
+              }
+            }
+            .deng{
+              display: block;
+              text-align: center;
+              width: 200px;
+              height: 40px;
+              line-height: 40px;
+              background: #dc0f50;
+              color: #fff;
+              font-size: 16px;
+              margin: 0 auto;
+            }
+            p{
+              padding: 0 15px;
+              text-align: right;
+              a{
+                color: #333;
+                font-size: 12px;
+                line-height: 31px;
+              }
+            }
+          }
+        }
+        // 
+        .c_list{
+          overflow: hidden;
+          height: 141px;
+          border-top: 1px solid #e5e5e5;
+          .hd{
+            padding: 18px 0 18px 50px;
+            overflow: hidden;
+            height: 30px;
+            line-height: 30px;
+            font-size: 24px;
+            color: #666;
+            font-weight: bold;
+            background: url(../img/home/img/mobile.min.png) no-repeat 10px center;
+          }
+          ul{
+            padding: 0 10px;
+            overflow: hidden;
+            li{
+              width: 25%;
+              float: left;
+              overflow: hidden;
+              a{
+                display: block;
+                line-height: 15px;
+                color: #333;
+                text-align: center;
+                font-size: 12px;
+                i{
+                  display: block;
+                  width: 26px;
+                  height: 20px;
+                  background: url('../img/home/img/icon_2.min.png') no-repeat;
+                  margin: 2px auto;
+                  margin-bottom: 5px;
+                  
+                 
+                }
+                .i2{
+                  background-position: 0 -20px;
+                }
+                .i3{
+                  background-position:  0 -40px;
+                }
+                .i4{
+                  background-position: 0 -60px;
+                }
+                .i1:hover {
+                  background-position: right 0;
+                }
+                .i2:hover {
+                  background-position: right -20px;
+                }
+                .i3:hover {
+                  background-position: right -40px;
+                }
+                .i4:hover {
+                  background-position: right -60px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+ 
+
+} 
+.rujiao{
+  overflow: hidden;
+    margin: 0 auto;
+    
+    width: 1200px;
+    height: 340px;
+    margin-bottom: 40px;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  // 生活轮播
+  .live_list{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    height: 362px;
+    width: 1200px;
+    // background-color: pink;
+    .hd{
+    height: 32px;
+    // background-color: red;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5 ;
+    }
+    .bd{
+      overflow: hidden;
+      height: 300px;
+      position: relative;
+     .list{
+      
+      .one-box {
+        width: 1170px;
+        height: 298px;
+        background-size: 1055px;
+        background-repeat: no-repeat;
+        background-position: 60px 165px;
+        margin-left: auto;
+        margin-right: auto;
+        ul{
+          list-style: none;
+      position: relative;
+      li{
+        position: absolute;
+      top: 100px;
+      cursor: pointer;
+      }
+        }
+    }
+   
+   
+    .prev {
+      left: 0;
+    }
+    .next {
+      right: 0;
+    }
+    .bigbox1 {
+      overflow: hidden;
+      width: 1200px;
+      height: 298px;
+      margin: auto 50px auto;
+      #switcher {
+      height: 298px;
+      left: 0px;
+    }
+    }
+    
+    .content_1{
+      width: 1200px;
+      
+    }
+    .box1 {
+      transition:all .7s ease 0s;
+      width: 180px;
+      height: 298px;
+      float: left;
+      /* border-left: 1px #e5e5e5 solid; */
+      margin: 0px 22px 0 11px;
+      img{
+      width: 190px;
+      height: 190px;
+      transition: all 0.8s
+    } 
+     
+    a{ 
+     position: relative;
+     .haiwia{
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 24px;
+        height: 24px;
+        z-index: 10;
+      }
+      b{
+      width: 200px;
+      display: block;
+      padding: 5px 0;
+      line-height: 21px;
+      height: 40px;
+      overflow: hidden;
+      font-size: 14px;
+      color: #333;
+    }
+    b:hover{
+      color: #dc0f50;
+     }
+    em{
+      display: block;
+      line-height: 24px;
+      color: #dc0f50;
+      font-size: 20px;
+    }
+    }
+  }
+    .box1:hover img{
+      transform:scale(1.1,1.1);
+    }
+    
+
+
+
+
+
+
+     }
+    }
+  }
+
+
+  #live_lunbo{
+    .boxz{
+    width: 200px;
+    height: 274px;
+    margin: 0px 22px 0 11px;
+    overflow: hidden;
+    float: left;
+    a{
+      position: relative;
+      display: block;
+      width: 200px;
+      overflow: hidden;
+ img{
+      width: 200px;
+    height: 200px;
+    display: block;
+    }
+    b{
+      display: block;
+    padding: 5px 0;
+    line-height: 21px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    }
+    em{
+      display: block;
+    line-height: 24px;
+    color: #dc0f50;
+    font-size: 20px;
+    }
+    }
+   
+    }
+  }

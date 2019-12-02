@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./js/home/jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet" href="./css/publicfooter.min.css">
+  <link rel="stylesheet" href="./css/publicheader.min.css">
+  <link rel="stylesheet" href="./css/register.min.css">
+</head>
+<body>
+  <div id="Phome_head">
+        <!-- 加载公共头部 -->
+  </div>
+        <!-- 加载公共头部 -->
+  <div id="Phome_search"></div>
+
+
+
+
+  <div id="register" class="clear_box">
+
+    <div class="fl r_left">
+      <ul>
+        <li>
+          <i>
+            <em>*</em>
+            手机号
+          </i>
+          <input type="tel" placeholder="请输入11位有效手机号码">
+          <span class="yes"></span>
+          <span class="no">请输入十一位有效手机号</span>
+        </li>
+        <li>
+            <i>
+              <em>*</em>
+              图片验证
+            </i>
+            <input type="tel" placeholder="请输入图片验证码" class="pic"/>
+            <button id="pic_yanz">1234</button>
+            <span class="no">请输入正确的验证码</span>
+            
+          </li>
+          <li>
+              <i>
+                <em>*</em>
+                设置密码
+              </i>
+              <input type="text" placeholder="请输入6-16个字符，不能加空格">
+              <span class="yes"></span>
+              <span class="no">请输入正确的密码</span>
+            </li> 
+            <li>
+                <i>
+                  <em>*</em>
+                  确认密码
+                </i>
+                <input type="text" placeholder="请再次输入密码">
+                <span class="yes"></span>
+                <span class="no">两次密码不一致</span>
+              </li>
+              <li>
+                  <i>
+                    <em>*</em>
+                    验证码
+                  </i>
+                  <input class="btnma" type="text">
+                  <button class="btn">获取验证码</button>
+                  <span class="yes"></span>
+                  <span class="no">请输入正确的密码</span>
+                </li>  
+      </ul>
+      <p class="xieyi">
+        <label for="agree">
+          <input type="checkbox" checked="checked">
+          我已阅读并同意
+          <a href="#"> 《会员注册协议》</a>
+            和
+          <a href="#">《隐私保护政策》</a>
+        </label>
+      </p>
+      <p class="on">
+        <a href="javascript:;">注册</a>
+      </p>
+
+      <p class="nowlogin">
+        <a href="#">我已注册，立即登录</a>
+      </p>
+      
+    </div>
+
+
+
+    <div class="fr">
+      <a href="#">
+        <img src="./img/home/img/login001.min.jpg" alt="">
+      </a>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div id="Phome_foot">
+      <!-- 加载公告尾部 -->
+  </div>
+
+
+  <script>
+  
+      // <!-- 加载公共头部 -->
+      $('#Phome_head').load('publicheader.html #PH_top')  
+     
+      $('#Phome_search').load('publicheader.html #PH_search_col',function(){
+      $('#PH_search_col').css('margin-top','30px')
+    })
+
+
+  
+      // <!-- 加载公告尾部 -->
+      $('#Phome_foot').load('publicfooter.html #PB_foot')
+    </script>
+
+</body>
+</html>
